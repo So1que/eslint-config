@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@so1que/prettier-config':
+        specifier: github:so1que/prettier-config
+        version: https://codeload.github.com/so1que/prettier-config/tar.gz/4d5f05d5da56eed437e42b6a9251873a03a08dec(prettier@3.2.5)
+
+packages:
+
+  '@so1que/prettier-config@https://codeload.github.com/so1que/prettier-config/tar.gz/4d5f05d5da56eed437e42b6a9251873a03a08dec':
+    resolution: {tarball: https://codeload.github.com/so1que/prettier-config/tar.gz/4d5f05d5da56eed437e42b6a9251873a03a08dec}
+    version: 1.0.0
+    peerDependencies:
+      prettier: ^3.2.5
+
+  prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  '@so1que/prettier-config@https://codeload.github.com/so1que/prettier-config/tar.gz/4d5f05d5da56eed437e42b6a9251873a03a08dec(prettier@3.2.5)':
+    dependencies:
+      prettier: 3.2.5
+
+  prettier@3.2.5: {}
